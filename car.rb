@@ -1,7 +1,7 @@
 class Car 
   attr_reader :model , :make , :year
   attr_accessor :heating
-  @@car_count = 0 
+  @@Car_count = 0 
   
   
   
@@ -9,11 +9,11 @@ class Car
     @model = model 
     @make = make 
     @year = year 
-    @@car_count += 1 
+    @@Car_count += 1 
     
   end 
   def self.count 
-    @@car_count 
+    @@Car_count 
   end 
 end 
 
@@ -42,4 +42,4 @@ honda.year
 
 puts "This is my #{honda.model}. It is a #{honda.make} and was built in #{honda.year}."
 
-car.count
+Car.count
