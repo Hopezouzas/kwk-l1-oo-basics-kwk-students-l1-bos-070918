@@ -42,4 +42,4 @@ honda.year
 
 puts "This is my #{honda.model}. It is a #{honda.make} and was built in #{honda.year}."
 
-Car.count
+puts Car.count
