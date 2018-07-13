@@ -41,3 +41,5 @@ honda.make
 honda.year
 
 puts "This is my #{honda.model}. It is a #{honda.make} and was built in #{honda.year}."
+
+car.count
